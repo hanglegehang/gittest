@@ -27,3 +27,11 @@ index 46d49bf..9247db6 100644
 
 git add readme.txt
 
+echo "# gittest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:hanglegehang/gittest.git
+git push -u origin master
+
+
